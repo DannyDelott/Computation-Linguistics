@@ -1,4 +1,12 @@
-package gov.lanl.vineparser;
+/*
+ * HashTagSegmenter.java
+ *
+ * Author: Danny Delott <dannydelott@gmail.com>
+ * Licensed under GPL Version 3
+ *
+ * A Java class to segment words in a hash tag
+*/
+
 
 import java.io.BufferedReader;
 import java.io.File;
