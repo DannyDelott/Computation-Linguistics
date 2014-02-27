@@ -29,7 +29,6 @@ public class HashTagSegmenter {
 	HashTagSegmenter(String wll) throws IOException {
 		wordListLocation = wll;
 		wordHashTable = getWordListHashTable();
-		System.out.println("size of hashtable:\t" + wordHashTable.size());
 
 	}
 
