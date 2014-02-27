@@ -41,6 +41,12 @@ Numbers and decimals are segmented using regular expressions.
     
 ##Possible Issues
 
-The segmentation by longest word from the left may cause trouble with singular nouns which pluralize with "-s", when the following word begins with an 's'.  For example:
+Segmenting by longest word from the left may cause trouble with singular nouns which pluralize with "-s", when the following word begins with an 's'.  For example:
 
     #diskspace => [disks pace]
+    
+Also, input text beginning with one-letter words may cause issues for the segmenter, either by incorrect segmentation or not segmenting it at all.  For example:
+
+    #adinnertable => [ad inner table]
+    #adentist => [adentist]
+    
