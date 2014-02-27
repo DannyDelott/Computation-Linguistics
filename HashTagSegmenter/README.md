@@ -1,7 +1,7 @@
 HashTagSegmenter
 =======================
 
-This Java class provides functionality for segmenting English words inside a Social Media Hashtags. 
+This Java class provides functionality for segmenting English words inside Social Media Hashtags. 
 
 For example:
 
