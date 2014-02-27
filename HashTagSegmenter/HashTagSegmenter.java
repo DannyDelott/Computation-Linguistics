@@ -1,7 +1,7 @@
 /*
  * HashTagSegmenter.java
  *
- * Author: Danny Delott <dannydelott@gmail.com>
+ * Author: DANNY DELOTT <DANNYDELOTT@gmail.com>
  * Licensed under GPL Version 3
  *
  * A Java class to segment words in a hash tag
