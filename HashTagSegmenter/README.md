@@ -13,6 +13,15 @@ For example:
 
 HashTagSegmenter loads the word list into a Java Hashtable and checks the input text against the Hashtable key.  If the input text does not exist as a word in the Hashtable, it removes the last character from the input text and checks the new text against the Hashtable.  This process continues until all word segments are found and the input text is empty, or until no segments were found.  
 
+##Demo
+To use the tool, place the HashTagSegmenter.java class in your project and envoke it using:
+
+    HashTagSegmenter hts = new HashTagSegmenter("path/to/wordlist.txt");
+    List<String> segments = hts.segmentWordsInHashTaggedToken("#thehashtag");
+    
+    //print segments
+    hts.printList(segments);
+
 ##Note
 
 If multiple segmentation outputs are possible, the longest word from the left is selected. For example:
