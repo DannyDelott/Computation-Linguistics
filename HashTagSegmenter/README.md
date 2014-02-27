@@ -59,3 +59,7 @@ Also, input text beginning with one-letter words may cause issues for the segmen
     #adinnertable => [ad inner table]
     #adentist => [adentist]
     
+##Credits
+HashTagSegmenter is based on Shyam Shankar's [Hashtag and URL Segmentation](https://github.com/shyam057cs/Machine-Learning/tree/master/Hashtag%20and%20Url%20Segmentation) script in Python.
+
+Special thanks to Sheng Lundquist for help rewriting Shankar's script in Java and optimizing it with Hashtables.
