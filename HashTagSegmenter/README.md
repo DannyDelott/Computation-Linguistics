@@ -41,7 +41,7 @@ The segmentation is based on a modified version of the list of 109,583 English w
 
   (http://www-01.sil.org/linguistics/wordlists/english/)
 
-Modifications to remove common suffixes brought the list down to 109,551 words.  These suffixes can be found here:
+Modifications to remove several common suffixes brought the list down to 109,551 words.  These suffixes can be found here:
     
   (http://en.wiktionary.org/wiki/Category:English_suffixes)
 
