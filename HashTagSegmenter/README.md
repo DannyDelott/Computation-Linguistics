@@ -50,7 +50,7 @@ Numbers and decimals are segmented using regular expressions.
     
 ##Possible Issues
 
-Segmenting by longest word from the left may cause trouble with singular nouns which pluralize with "-s", when the following word begins with an 's'.  For example:
+Segmenting by longest word from the left may cause trouble with singular nouns that pluralize with "-s" when the following word begins with an 's'.  For example:
 
     #diskspace => [disks pace]
     
