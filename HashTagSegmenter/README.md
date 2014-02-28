@@ -62,7 +62,7 @@ Also, input text beginning with one-letter words may cause issues for the segmen
 
 HashTagSegmenter is based on Shyam Shankar's [Hashtag and URL Segmentation](https://github.com/shyam057cs/Machine-Learning/tree/master/Hashtag%20and%20Url%20Segmentation) script in Python.
 
-Special thanks to Sheng Lundquist for his assistance with rewriting Shankar's script in Java and optimizing it with Hashtables.
+Special thanks to Sheng Lundquist for his assistance with rewriting Shankar's script in Java and for his help with the Hashtable optimization.
 
 Mentor: Dr. Garrett Kenyan
 
