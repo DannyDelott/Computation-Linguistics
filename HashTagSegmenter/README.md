@@ -16,11 +16,10 @@ HashTagSegmenter loads the word list into a Java Hashtable and checks the input 
 ##Usage
 To use the tool, place the HashTagSegmenter.java class in your project and envoke it using:
 
-    HashTagSegmenter hts = new HashTagSegmenter("path/to/wordlist.txt");
-    List<String> segments = hts.segmentWordsInHashTaggedToken("#thehashtag");
+    HashTagSegmenter hts = new HashTagSegmenter("path/to/wordlist.txt");    // initializes with a word list
+    List<String> segments = hts.segmentWordsInHashTaggedToken("#thehashtag");   // stores segments in List<String>
     
-    //print segments
-    hts.printList(segments);
+    hts.printList(segments);    //prints segments
 
 ##Note
 
